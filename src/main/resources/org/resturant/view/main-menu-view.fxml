@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyTableView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="799.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.resturant.Controllers.MainMenuController">
+   <top>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="132.00007324218745" minWidth="10.0" prefWidth="119.39997558593745" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="84.199951171875" minWidth="10.0" prefWidth="21.00002441406241" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="7">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="8">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="9">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="10">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="11">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="45.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Button" textFill="WHITE" GridPane.columnIndex="6">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MenuButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Menu" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="15.0" />
+               </font>
+            </MenuButton>
+            <MFXButton buttonType="RAISED" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="20.0" minWidth="-Infinity" onMouseClicked="#menuExit" prefHeight="36.0" prefWidth="27.0" style="-fx-background-color: red;" text=" " GridPane.columnIndex="12">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </MFXButton>
+            <ImageView fitHeight="35.0" fitWidth="25.0" onMouseClicked="#menuExit" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="12">
+               <image>
+                  <Image url="@../assets/exitIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+   </top>
+   <right>
+      <GridPane prefHeight="886.0" prefWidth="374.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="602.5999755859375" minHeight="10.0" prefHeight="469.800048828125" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="109.0" minHeight="10.0" prefHeight="104.199951171875" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="109.0" minHeight="10.0" prefHeight="101.60001220703123" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="262.0000061035156" minHeight="10.0" prefHeight="59.20001220703125" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <MFXLegacyTableView maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="374.0" GridPane.valignment="TOP">
+               <columns>
+                  <TableColumn prefWidth="242.40003049373627" text="Description" />
+                  <TableColumn prefWidth="48.800048828125" text="QTY" />
+                  <TableColumn text="Price" />
+               </columns>
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </MFXLegacyTableView>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="3" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="150.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="5" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="290.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="4" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="220.0" top="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="80.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="150.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="220.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="290.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="100.0" prefWidth="63.0" style="-fx-background-color: #bdc3c7;" text="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="63.0" prefWidth="97.0" style="-fx-background-color: blue;" text=" " GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="255.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="63.0" prefWidth="97.0" style="-fx-background-color: red;" text=" " GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="135.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton prefHeight="63.0" prefWidth="97.0" style="-fx-background-color: green;" text=" " GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <ImageView fitHeight="66.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../assets/menu/pay.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="66.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../assets/menu/clear.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="160.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="66.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../assets/menu/void.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="280.0" />
+               </GridPane.margin>
+            </ImageView>
+         </children>
+      </GridPane>
+   </right>
+</BorderPane>
