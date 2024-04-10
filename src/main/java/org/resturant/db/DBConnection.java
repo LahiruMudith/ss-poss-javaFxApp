@@ -15,7 +15,7 @@ public class DBConnection {
             //load connector
             Class.forName("com.mysql.cj.jdbc.Driver");
             //create connection with database
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project1", "root", "1212");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project1", "root", "1234");
 
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);

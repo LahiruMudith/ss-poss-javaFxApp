@@ -272,9 +272,11 @@
             </ImageView>
          </children>
       </GridPane>
-      <MFXPasswordField fx:id="txtEmployerNum" alignment="CENTER" allowCopy="true" allowEdit="false" floatMode="DISABLED" layoutX="448.0" layoutY="431.0" prefHeight="36.0" prefWidth="218.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+      <AnchorPane layoutX="428.0" layoutY="359.0" prefHeight="44.0" prefWidth="256.0" />
+      <MFXPasswordField fx:id="txtEmployerNum" alignment="CENTER" allowCopy="true" allowEdit="false" floatMode="DISABLED" floatingText="5" layoutX="442.0" layoutY="408.0" prefHeight="58.0" prefWidth="256.0" style="-fx-background-color: transparent; -fx-background-radius: 10;">
          <cursor>
             <Cursor fx:constant="HAND" />
-         </cursor></MFXPasswordField>
+         </cursor>
+      </MFXPasswordField>
    </children>
 </AnchorPane>
