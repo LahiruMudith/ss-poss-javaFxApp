@@ -6,13 +6,16 @@
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.effect.BoxBlur?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="799.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.resturant.Controllers.MainMenuController">
    <top>
@@ -126,8 +129,11 @@
             </MFXButton>
             <MenuButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: blue;" text="Menu" textFill="WHITE">
               <items>
-                <MenuItem mnemonicParsing="false" text="Action 1" />
-                <MenuItem mnemonicParsing="false" text="Action 2" />
+                <MenuItem mnemonicParsing="false" text="Sync" />
+                <MenuItem mnemonicParsing="false" text="X Reports" />
+                  <MenuItem mnemonicParsing="false" text="Z Reports" />
+                  <MenuItem mnemonicParsing="false" text="Regular Visitor" />
+                  <MenuItem mnemonicParsing="false" text="Configuaration" />
               </items>
                <GridPane.margin>
                   <Insets right="5.0" />
@@ -293,4 +299,347 @@
          </children>
       </GridPane>
    </right>
+   <left>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+          <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="189.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="777.0" fitWidth="1125.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../assets/menu/bg-image.jpg" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+               <effect>
+                  <BoxBlur />
+               </effect>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdc3c799" height="30.0" stroke="BLACK" strokeType="INSIDE" width="1125.0">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </Rectangle>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reseverd for Messages" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="100.0" />
+               </GridPane.margin>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdc3c757" height="811.0" stroke="BLACK" strokeType="INSIDE" translateY="30.0" width="1126.0" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </Rectangle>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#71ecc3" style="-fx-background-radius: 10; -fx-background-color: #71ecc3;" text="-" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#71ecc3" style="-fx-background-radius: 10; -fx-background-color: #71ecc3;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#71ecc3" style="-fx-background-radius: 10; -fx-background-color: #71ecc3;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#71ecc3" style="-fx-background-radius: 10; -fx-background-color: #71ecc3;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#71ecc3" style="-fx-background-radius: 10; -fx-background-color: #71ecc3;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fadca1" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="GARLIC BREAD" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #43ff43;" text="   " GridPane.columnIndex="5" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fadca1" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="GARLIC CHEES BREAD" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#86d0e4" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="ENT-LOADED BRISKET FRIES" wrapText="true" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fff646" style="-fx-background-radius: 10; -fx-background-color: #fff646;" text="MONDAY ROAST PORK" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#43ff43" style="-fx-background-radius: 10; -fx-background-color: #43ff43;" text="Button" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #43ff43;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #fff646;" text="TUESDAY GRLLED CHICKEN &amp; ..." wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#86d0e4" style="-fx-background-radius: 10; -fx-background-color: #86d0e4;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fadca1" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="ENT-BRUSCHET TA" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#86d0e4" style="-fx-background-radius: 10; -fx-background-color: #86d0e4;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fae0b1" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="ENT-SHT FRY CHICKEN" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#86d0e4" style="-fx-background-radius: 10; -fx-background-color: #86d0e4;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #fff646;" text="WENDESDAY ASIAN STIR FRY" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #43ff43;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #fff646;" text="THURSDAY STEAK SPECIAL" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Page 1" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10; -fx-background-color: #fff646;" text="FRIDAY-FISH &amp; CHIPS" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#86d0e4" style="-fx-background-radius: 10; -fx-background-color: #86d0e4;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" rippleColor="#fadca1" style="-fx-background-radius: 10; -fx-background-color: fae0b1;" text="ENT-SAN CHOY BAO" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="   " GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Page 4" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Page 2" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="   " GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </MFXButton>
+            <MFXButton maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="68.0" prefWidth="165.0" style="-fx-background-radius: 10;" text="   " GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </MFXButton>
+         </children>
+      </GridPane>
+   </left>
 </BorderPane>

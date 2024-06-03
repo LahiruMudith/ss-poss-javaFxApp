@@ -7,6 +7,7 @@ module org.resturant {
     requires mfx.localization;
     requires MaterialFX;
     requires java.sql;
+    requires jdk.javadoc;
 
 
     opens org.resturant to javafx.fxml;
