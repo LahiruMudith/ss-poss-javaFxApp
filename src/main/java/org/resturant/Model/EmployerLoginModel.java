@@ -16,13 +16,6 @@ public class EmployerLoginModel {
 
             ResultSet results = stm.executeQuery();
             boolean next = results.next();
-//            Login login = new Login();
-//
-//            if (results.next()) {
-//                login.setId(results.getString(1));
-//                login.setName(results.getString(2));
-//                login.setAddress(results.getString(3));
-//            }
             return next;
         } catch (SQLException e) {
             throw new RuntimeException(e);
